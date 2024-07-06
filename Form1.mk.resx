@@ -313,6 +313,66 @@
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
     <value>320, 46</value>
   </data>
+  <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="label4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="label4.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 253</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 46</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
+  </data>
+  <data name="label4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
   </data>
@@ -852,7 +912,7 @@
 </value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>963, 560</value>
+    <value>962, 558</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -7702,17 +7762,14 @@
         AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>979, 599</value>
+    <value>978, 597</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>979, 599</value>
+    <value>978, 597</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Милионер</value>

@@ -117,104 +117,275 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <metadata name="labelQuestion.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelQuestion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="labelQuestion.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
+  <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 384</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="labelQuestion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>886, 61</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="labelQuestion.Text" xml:space="preserve">
     <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
-  </data>
-  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="labelB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 515</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;imageList2.Name" xml:space="preserve">
-    <value>imageList2</value>
-  </data>
-  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 582</value>
-  </data>
-  <data name="&gt;&gt;imageList2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelB.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
   </data>
   <data name="labelQuestion.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
-    <value>imageList1</value>
+  <data name="&gt;&gt;labelQuestion.Name" xml:space="preserve">
+    <value>labelQuestion</value>
   </data>
-  <data name="label2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAaQAAAAzCAYAAADYWHx6AAABb2lDQ1BpY2MAACjPlZE9S8NQGIVPW0XR
-        SgcVRB0yVHFoQRTEUevQpUipFay6pGnTCkkakhQproKLQ8FBdPFr8B/oKrgqCIIiiDj5A/xapMRzm0KL
-        6OANN+/DuTkv7z0B/AlN0e22GUA3HCsVj0lLmWWp4wVBDKEfEiRZsc3ZZDKBP9fnHXyi3kZFL/xvdefy
-        tgL4OslTimk5ZE6DxLpjCt4m9ylFOUc+JEcsDki+EnrW42fBBY/fBVvp1BzvJnpKhRbOtrBStHTyGDms
-        a2WlMY+4STBvLC6wDnIPw0YKccSYRRZlrEGDgyirwcx+943XffMo0aPwbaICi44CivRGqJbZNc+qUs/z
-        0VARuf/M01YnJ7zuwRjQ/uS6byNAxw5Qq7ru15Hr1o6BwCNwYTT9JeY0/UG92tTCB0BoEzi7bGrZXeB8
-        Cxh4MGVLrksBbr+qAq+nQE8G6L0Bula8rBrnOLkH0hv8RdfA3j4wyu9Dq98+gGgmoXrG5AAAAAlwSFlz
-        AAAuIgAALiIBquLdkgAABcNJREFUeF7t1XmMXVUdwPHz2plS28RA3MIfGmJwSVxIhAjWumOpSFsoXaCV
-        tthCLUvUipUILrQqVASLWLYWK2C1UKxQG0IIRdwjxQXRmDpWYBoFgXSBMrQz7Tt+b3Pv5M6bMzPvzZbo
-        fP/45J2c3PcmOWfu7xvalywfDBW8E1H6P7NP+h/wUp3qfbbe330SyzAWqTY0JOz/1BUD1YyL8GdESdKI
-        8jwuwRFINaJuoW3xVweiGSvQgihJGnGqeBKLkTUh1Yq6hH3nf7m/mnAh/oIoSRqxqvgTzkDWhlQz+hRe
-        OO9L/VHBbDyMKEka8Q7iAUzEKKTa0auwZ9Hl/XEc7kSUJCn3Mm7C65FqR6/CroWXNWocVmEnoiRJuSqe
-        xucwGqmG9Cg8/8kvNmoqtiFKklTjEH6NCagg1ZGk8Oy5lzbiGKzDc4iSJCXswQ14NVItSQrPLPhCvcbg
-        YvwdUZKkHlTRgoUYjVRTugn/nr+sXhOxGVGSpD4cQNaM45FqSjdh57zP1+NoXI02REmS6rALK3EkUm3p
-        Ijz1iUv6MgYL0IooSVIDtmMGKkg1plN4Yu7Svrwd9yNKktSgDtyLY5BqTKewY85nezMOq9COKElSP7yI
-        5WhGqjWHhZazP9OTChbicURJkvqpihZMwyikmhPC9rM+3ZMTcR/aECVJGoB2bMWbkWpOCH+bfXHK0bgd
-        OxAlSRoEe3ELXolu7Ql/nXVRrbFYiUdQRZQkaRBkTXkKS9GMLv0Jj8+8sNZcbMUuREmSBtFBPIqT0aU/
-        4bEZF5S9CpvRiihJ0hB4GRswHp0NCn88c0lhFJbhH4iSJA2h3bgczTjcofD76YsLs7ENUZKkYfAsLkAT
-        Qth2xvmZSdiK3YiSJA2Tp7EITeF3p593LB7FfrQhSpI0jP6JyeG30xa9A+2IOJR/SpI0XFoxL/xq6sIm
-        bMQhREmShtGLWINK+MWUczNHog1RkqRhsh9bMA4hPHzagsJE7EGUJGmIHcRv8BYc7lB46OPzCxVchQOI
-        kiQNkSpaMAudHQoPnjqv7BVYhecQJUkaAruwAhV0Nig8MPmcWsfiIURJkgZZBzZhPLr0J9x/ytxaFczB
-        E4iSJA2ix3A8uvUn3DdpTspYrEWUJGmQ7MYSpLoTwpaPnt2TN+IPiJIkDVAH1mIMUs0JYfPJZ/Wkgqn4
-        D6IkSQPwS7wJqd4cFu75yKzeNONKHEKUJKkfWjETqc50Cps+PLMvb8CDiJIkNWgvLsMRSDWmU7j7QzP6
-        UsEUHECUJKlOWTfW461I9aWLcNcHz6zHeOxAlCSpDlU8gumoINWWLsKGD0yv1zS0IUqS1IdncCmOQqop
-        3YT17z+9XqOxCK2IkiT1YD82YgJSPUkKd7xvWiNeg58hSpKUUMV2nIPRSLUkKdw2cWqjTsBeREmSaryA
-        a/BapBrSo7DuvVMaNQrXIkqSVNKBn+M4pPrRq3DrhNP6Yyz2IEqShCpaMRupbvQprHnPqf31OuxDlCSN
-        eC9hKSpINaNP4eaTPjYQJ2En2hElSSNSFavRhFQr6hJuPHHyQM3HPkRJ0oi0BUch1Yi6hdXvPmWgKngb
-        /oUqoiRpROjAJjQj1YeGhOtPmDRYxuBdWIqv4XrcgU34Sf5Z+HHu7pKNubtK7sxtKPlR7ocl63M/KMn+
-        dub2ktty38+tK/le7taStbk1Jbfkbi65KXdjyQ251SXfzWVnU/hO7rqSVblvl1ybu6bkW7mrS76ZW5m7
-        quTK3DdKvp7L7qywIre85AoUZ1acX+ocC9lZ9rZXnHdKdvapvZ5kd5Ra1yP1/GDtZet6pL47EKmzq2ev
-        J+U7LO6ut73a/49axXtYfh9r9zLFO1t+f4t1ofyeF+uy8kwo5kLtXqaYIWXFfCnPnGJdVp5PhWJ2pZTn
-        W7Euz79iXZ6PtYoZWlaesdnMzdyTK6/vzZXXmxN+WrIF2fPZOWdz6yvI7m0eUj3oh0nhv8ZqPRL13YUk
-        AAAAAElFTkSuQmCC
-</value>
+  <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 17</value>
+  </metadata>
+  <data name="imageList2.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 253</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 19</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="labelA.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelA.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="labelA.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 500</value>
+  </data>
+  <data name="labelA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 54</value>
+  </data>
+  <data name="labelA.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="labelA.Text" xml:space="preserve">
+    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
+  </data>
+  <data name="labelA.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelA.Name" xml:space="preserve">
+    <value>labelA</value>
+  </data>
+  <data name="&gt;&gt;labelA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="labelB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="labelB.Font" type="System.Drawing.Font, System.Drawing">
     <value>Calibri, 9.75pt</value>
   </data>
+  <data name="labelB.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 500</value>
+  </data>
+  <data name="labelB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 54</value>
+  </data>
+  <data name="labelB.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="labelB.Text" xml:space="preserve">
+    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
+  </data>
+  <data name="labelB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelB.Name" xml:space="preserve">
+    <value>labelB</value>
+  </data>
   <data name="&gt;&gt;labelB.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;labelB.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;labelB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="labelC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelC.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="labelC.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="labelC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 565</value>
+  </data>
+  <data name="labelC.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>427, 54</value>
+  </data>
+  <data name="labelC.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="labelC.Text" xml:space="preserve">
+    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
+  </data>
+  <data name="labelC.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelC.Name" xml:space="preserve">
+    <value>labelC</value>
+  </data>
+  <data name="&gt;&gt;labelC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelC.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelC.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="label1.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <metadata name="labelD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelD.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 9.75pt</value>
+  </data>
+  <data name="labelD.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
+  </data>
+  <data name="labelD.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelD.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 565</value>
+  </data>
+  <data name="labelD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelD.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 54</value>
+  </data>
+  <data name="labelD.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="labelD.Text" xml:space="preserve">
+    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
+  </data>
+  <data name="labelD.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelD.Name" xml:space="preserve">
+    <value>labelD</value>
+  </data>
+  <data name="&gt;&gt;labelD.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelD.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelD.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -751,231 +922,11 @@
         atBvauTVoBCaOHT2m9q5NWhaimrf0/Vq8/ED/9k=
 </value>
   </data>
-  <data name="label2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="labelB.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 56</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
-  </data>
-  <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>229, 395</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="labelQuestion.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt</value>
-  </data>
-  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt</value>
-  </data>
-  <data name="labelB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 56</value>
-  </data>
-  <data name="label2.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;labelQuestion.Name" xml:space="preserve">
-    <value>labelQuestion</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
-  </data>
-  <data name="label3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label3.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 56</value>
-  </data>
-  <data name="&gt;&gt;labelB.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>818, 68</value>
-  </data>
-  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1282, 681</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="labelB.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="labelQuestion.Text" xml:space="preserve">
-    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 515</value>
-  </data>
-  <data name="label3.Text" xml:space="preserve">
-    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
-  </data>
-  <data name="&gt;&gt;labelB.Name" xml:space="preserve">
-    <value>labelB</value>
-  </data>
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;labelB.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="labelB.Text" xml:space="preserve">
-    <value>Што претставува Племенска и Племенска единица? Што претставува единицата на структура во технологијата на идеалната структура во генетика?</value>
-  </data>
-  <data name="label3.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleLeft</value>
-  </data>
-  <data name="imageList2.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Милионер</value>
-  </data>
-  <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Calibri, 9.75pt</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 582</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="labelB.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1300, 728</value>
-  </data>
-  <data name="&gt;&gt;labelQuestion.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 56</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;labelQuestion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
-  <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1284, 661</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -7825,56 +7776,34 @@
         AAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1300, 700</value>
+  </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1300, 728</value>
+    <value>1300, 700</value>
   </data>
-  <data name="label1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        AABJRU5ErkJggg==
-</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
   </data>
-  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>128, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>mk</value>
-  </metadata>
+  <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
+    <value>imageList1</value>
+  </data>
+  <data name="&gt;&gt;imageList1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imageList2.Name" xml:space="preserve">
+    <value>imageList2</value>
+  </data>
+  <data name="&gt;&gt;imageList2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Милионер</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
