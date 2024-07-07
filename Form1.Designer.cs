@@ -73,9 +73,9 @@
             resources.ApplyResources(this.labelA, "labelA");
             this.labelA.BackColor = System.Drawing.Color.Transparent;
             this.labelA.ForeColor = System.Drawing.Color.Transparent;
-            this.labelA.Image = global::Милионер.imgAnswer.answer_hover;
             this.labelA.Name = "labelA";
             this.labelA.UseCompatibleTextRendering = true;
+            this.labelA.Click += new System.EventHandler(this.labelA_Click);
             this.labelA.MouseLeave += new System.EventHandler(this.labelA_MouseLeave);
             this.labelA.MouseHover += new System.EventHandler(this.labelA_MouseHover);
             // 
@@ -86,6 +86,7 @@
             this.labelB.ForeColor = System.Drawing.Color.Transparent;
             this.labelB.Name = "labelB";
             this.labelB.UseCompatibleTextRendering = true;
+            this.labelB.Click += new System.EventHandler(this.labelB_Click);
             this.labelB.MouseLeave += new System.EventHandler(this.labelB_MouseLeave);
             this.labelB.MouseHover += new System.EventHandler(this.labelB_MouseHover);
             // 
@@ -96,6 +97,7 @@
             this.labelC.ForeColor = System.Drawing.Color.Transparent;
             this.labelC.Name = "labelC";
             this.labelC.UseCompatibleTextRendering = true;
+            this.labelC.Click += new System.EventHandler(this.labelC_Click);
             this.labelC.MouseLeave += new System.EventHandler(this.labelC_MouseLeave);
             this.labelC.MouseHover += new System.EventHandler(this.labelC_MouseHover);
             // 
@@ -106,6 +108,7 @@
             this.labelD.ForeColor = System.Drawing.Color.Transparent;
             this.labelD.Name = "labelD";
             this.labelD.UseCompatibleTextRendering = true;
+            this.labelD.Click += new System.EventHandler(this.labelD_Click);
             this.labelD.MouseLeave += new System.EventHandler(this.labelD_MouseLeave);
             this.labelD.MouseHover += new System.EventHandler(this.labelD_MouseHover);
             // 

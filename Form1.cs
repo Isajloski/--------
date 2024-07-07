@@ -9,6 +9,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -61,6 +62,55 @@ namespace Милионер
             }
         }
 
+        private async void displayAnswer(System.Windows.Forms.Label label)
+        {
+            System.Windows.Forms.Label labelCorrect = label;
+            if (label.Text.Equals(level.questions[level.currentLevel].correct_answer))
+            {
+                Console.WriteLine("Correct!");
+                label.Image = correctAnswer;
+            }
+            else
+            {
+                if (labelA.Text.Equals(level.questions[level.currentLevel].correct_answer))
+                {
+                    labelA.Image = correctAnswer;
+                    labelCorrect = labelA;
+
+                }
+                else if (labelB.Text.Equals(level.questions[level.currentLevel].correct_answer))
+                {
+                    labelB.Image = correctAnswer;
+                    labelCorrect = labelB;
+
+                }
+                else if (labelC.Text.Equals(level.questions[level.currentLevel].correct_answer))
+                {
+                    labelC.Image = correctAnswer;
+                    labelCorrect = labelC;
+
+                }
+                else if (labelD.Text.Equals(level.questions[level.currentLevel].correct_answer))
+                {
+                    labelD.Image = correctAnswer;
+                    labelCorrect = labelD;
+                }
+                Console.WriteLine("Incorrect!");
+                label.Image = incorrectAnswer;
+                await Task.Delay(3000);
+                labelCorrect.Image = null;
+                label.Image = null;
+                generateLevels();
+                level.currentLevel = 0;
+                displayLevel();
+                return;
+            }
+            await Task.Delay(3000);
+            labelCorrect.Image = null;
+            label.Image = null;
+            NextLevel();
+
+        }
         private void generateLevels()
         {
             Random random = new Random();
@@ -83,20 +133,16 @@ namespace Милионер
 
         private void NextLevel()
         {
-         
             level.currentLevel++;
 
-            if (level.currentLevel == 15)
+            if (level.currentLevel >= 15)
             {
-                Console.WriteLine("You won!");
-                level.currentLevel = 0; 
                 generateLevels();
-
+                level.currentLevel = 0;
+                Console.WriteLine("15");
             }
-            else
-            {
-                displayLevel();
-            }
+            displayLevel();
+            
         }
 
         private void Милионер_Load(object sender, EventArgs e)
@@ -107,8 +153,6 @@ namespace Милионер
         {
             label.Image = hoverAnswer;
         }
-
-
 
         private void changeLeaveImage(System.Windows.Forms.Label label)
         {
@@ -124,7 +168,6 @@ namespace Милионер
         private void labelA_MouseLeave(object sender, EventArgs e)
         {
             changeLeaveImage(labelA);
-            NextLevel();
         }
 
         private void labelB_MouseHover(object sender, EventArgs e)
@@ -134,34 +177,47 @@ namespace Милионер
 
         private void labelB_MouseLeave(object sender, EventArgs e)
         {
-            Console.WriteLine("B: Leave");
             changeLeaveImage(labelB);
-
         }
 
         private void labelC_MouseHover(object sender, EventArgs e)
         {
             changeHoverImage(labelC);
-
         }
 
         private void labelC_MouseLeave(object sender, EventArgs e)
         {
-            Console.WriteLine("C: Leave");
             changeLeaveImage(labelC);
-
         }
 
         private void labelD_MouseHover(object sender, EventArgs e)
         {
             changeHoverImage(labelD);
-
         }
 
         private void labelD_MouseLeave(object sender, EventArgs e)
         {
-            Console.WriteLine("D: Leave");
             changeLeaveImage(labelD);
+        }
+
+        private void labelA_Click(object sender, EventArgs e)
+        {
+            displayAnswer(labelA);
+        }
+
+        private void labelB_Click(object sender, EventArgs e)
+        {
+            displayAnswer(labelB);
+        }
+
+        private void labelC_Click(object sender, EventArgs e)
+        {
+            displayAnswer(labelC);
+        }
+
+        private void labelD_Click(object sender, EventArgs e)
+        {
+            displayAnswer(labelD);
         }
     }
 }
