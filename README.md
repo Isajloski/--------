@@ -11,7 +11,7 @@
 
 ## Set-up
 
-За да ја симнете играта и директно да ја играте само симнете ја default.rar од [Realease](https://github.com/Isajloski/Milioner/releases/tag/Realease), потоа  направете extract на истата, потоа можете да ја инсталирате со извршување на setup.exe или само кликнете на Милионер.application за директно да ја играте. 
+За да ја симнете играта и директно да ја играте само симнете ја default.rar од [тука](https://github.com/Isajloski/Milioner/releases/download/Realease/default.rar) или пак може да одите во Realease (во десниот дел од github), потоа  направете extract на истата, потоа можете да ја инсталирате со извршување на setup.exe или само кликнете на Милионер.application за директно да ја играте. 
 
 Доколку сакате да го клонирате проектот тогаш тоа може да го направите или со git со извршување на следната команда: `git clone https://github.com/Isajloski/Milioner.git` или пак може да го симнете проектот директно од https://github.com/Isajloski/Milioner.git и да го екстрактирате. 
 
