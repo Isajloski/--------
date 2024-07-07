@@ -14,3 +14,6 @@ C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Мил�
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgLevel.resources
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgAnswer.resources
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgHelp.resources
+C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.csproj.Up2Date

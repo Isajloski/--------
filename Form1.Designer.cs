@@ -38,6 +38,7 @@
             this.labelB = new System.Windows.Forms.Label();
             this.labelC = new System.Windows.Forms.Label();
             this.labelD = new System.Windows.Forms.Label();
+            this.labelLevel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // imageList1
@@ -72,6 +73,7 @@
             resources.ApplyResources(this.labelA, "labelA");
             this.labelA.BackColor = System.Drawing.Color.Transparent;
             this.labelA.ForeColor = System.Drawing.Color.Transparent;
+            this.labelA.Image = global::Милионер.imgAnswer.answer_hover;
             this.labelA.Name = "labelA";
             this.labelA.UseCompatibleTextRendering = true;
             this.labelA.MouseLeave += new System.EventHandler(this.labelA_MouseLeave);
@@ -107,10 +109,18 @@
             this.labelD.MouseLeave += new System.EventHandler(this.labelD_MouseLeave);
             this.labelD.MouseHover += new System.EventHandler(this.labelD_MouseHover);
             // 
+            // labelLevel
+            // 
+            resources.ApplyResources(this.labelLevel, "labelLevel");
+            this.labelLevel.BackColor = System.Drawing.Color.Transparent;
+            this.labelLevel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.labelLevel.Name = "labelLevel";
+            // 
             // Милионер
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.labelLevel);
             this.Controls.Add(this.labelD);
             this.Controls.Add(this.labelC);
             this.Controls.Add(this.labelB);
@@ -132,6 +142,7 @@
         private System.Windows.Forms.Label labelB;
         private System.Windows.Forms.Label labelC;
         private System.Windows.Forms.Label labelD;
+        private System.Windows.Forms.Label labelLevel;
     }
 }
 

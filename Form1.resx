@@ -135,13 +135,13 @@
     <value>Calibri, 9.75pt</value>
   </data>
   <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>199, 384</value>
+    <value>193, 377</value>
   </data>
   <data name="labelQuestion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>886, 61</value>
+    <value>908, 75</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
@@ -163,7 +163,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>128, 17</value>
@@ -175,16 +175,13 @@
     <value>True</value>
   </metadata>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 253</value>
-  </data>
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
+    <value>0, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 19</value>
+    <value>100, 23</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>14</value>
   </data>
   <data name="&gt;&gt;label4.Name" xml:space="preserve">
     <value>label4</value>
@@ -196,7 +193,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <metadata name="labelA.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -214,13 +211,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>200, 500</value>
+    <value>200, 502</value>
   </data>
   <data name="labelA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 54</value>
+    <value>421, 49</value>
   </data>
   <data name="labelA.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -241,7 +238,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelA.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="labelB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -259,13 +256,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelB.Location" type="System.Drawing.Point, System.Drawing">
-    <value>664, 500</value>
+    <value>664, 502</value>
   </data>
   <data name="labelB.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelB.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 54</value>
+    <value>421, 49</value>
   </data>
   <data name="labelB.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -286,7 +283,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelB.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="labelC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -310,7 +307,7 @@
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelC.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 54</value>
+    <value>421, 49</value>
   </data>
   <data name="labelC.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -331,7 +328,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelC.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="labelD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -349,13 +346,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>664, 565</value>
+    <value>660, 565</value>
   </data>
   <data name="labelD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelD.Size" type="System.Drawing.Size, System.Drawing">
-    <value>421, 54</value>
+    <value>421, 49</value>
   </data>
   <data name="labelD.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -376,6 +373,48 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelD.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="labelLevel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="labelLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 72pt, style=Bold</value>
+  </data>
+  <data name="labelLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>563, 116</value>
+  </data>
+  <data name="labelLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="labelLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 141</value>
+  </data>
+  <data name="labelLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelLevel.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelLevel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelLevel.Name" xml:space="preserve">
+    <value>labelLevel</value>
+  </data>
+  <data name="&gt;&gt;labelLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelLevel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -7786,7 +7825,7 @@
     <value>1300, 700</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
+    <value>Милионер</value>
   </data>
   <data name="&gt;&gt;imageList1.Name" xml:space="preserve">
     <value>imageList1</value>

@@ -11,8 +11,8 @@ namespace Милионер
         // Сите прашања ги чуваме во една листа
         public List <Question> questions { get; set; }
 
-        // Моменталниот левел започнува од 1 и крајниот е 15. 
-        public int currentLevel { get; set; } = 1;
+        // Моменталниот левел започнува од 0 и крајниот е 14. 
+        public int currentLevel { get; set; } = 0;
 
         // Повикај пријател
         public bool callAFriend { get; set; } = false;
@@ -25,15 +25,10 @@ namespace Милионер
 
         public Level()
         {
-            questions = new List <Question>();
-            generateQuestions();
-              
+            questions = new List <Question>();              
         }
 
-        private void generateQuestions()
-        {
-            
-        }
+       
     }
 }
 
