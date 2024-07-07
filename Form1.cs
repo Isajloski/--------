@@ -26,10 +26,8 @@ namespace Милионер
         public Image incorrectAnswer { get; set; }
         public Level level { get; set; }
 
-        public List<int> questions {  get; set; }
         public List<Question> easyQuestions { get; set; }
         public List<Question> hardQuestions { get; set; }
-
         public Милионер()
         {
             InitializeComponent();
@@ -41,7 +39,6 @@ namespace Милионер
             generateLevels();
             displayLevel();
         }
-
         private void displayLevel()
         {
             if (level.currentLevel == 15)
@@ -61,7 +58,6 @@ namespace Милионер
                 labelLevel.Text = (level.currentLevel + 1) + "";
             }
         }
-
         private async void displayAnswer(System.Windows.Forms.Label label)
         {
             System.Windows.Forms.Label labelCorrect = label;
@@ -275,7 +271,7 @@ namespace Милионер
         {
             if (!level.fiftyFifty)
             {
-                fiftyFiftyPictureBox.Image = imgHelp._50_50;
+                fiftyFiftyPictureBox.Image = null;
             }
         }
 
@@ -318,6 +314,12 @@ namespace Милионер
                 {
                     int randomNumber = random.Next(0, easyQuestions.Count());
                     level.questions[level.currentLevel] = easyQuestions[randomNumber];
+                    displayLevel();
+                }
+                else
+                {
+                    int randomNumber = random.Next(0, hardQuestions.Count());
+                    level.questions[level.currentLevel] = hardQuestions[randomNumber];
                     displayLevel();
                 }
             }
