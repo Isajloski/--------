@@ -398,3 +398,133 @@ private void labelD_Click(object sender, EventArgs e)
 }
 ```
 
+##### fiftyFiftyPictureBox_Click()
+
+Кога корисникот ќе кликне на fiftyFiftyPictureBox тогаш тој ја избрал опцијата за 50-50, па за таа цел проверуваме во која лабела е точниот одговор, и кога ќе се најде точниот одоговор се бришат 2 неточни одговори и остануваат само 2.
+
+`checkCorrectAnswerOfLabel` проверува само дали лабелата која е испратена го содржи точниот одговор (враќа true или false).
+
+```cs
+private void fiftyFiftyPictureBox_Click(object sender, EventArgs e)
+{
+    if (!level.fiftyFifty)
+    {
+        fiftyFiftyPictureBox.Image = imgHelp._50_50_c;
+        level.fiftyFifty = true;
+        if (checkCorrectAnswerOfLabel(labelA))
+        {
+            labelC.Text = "";
+            labelD.Text = "";
+        }
+        else if (checkCorrectAnswerOfLabel(labelB))
+        {
+            labelC.Text = "";
+            labelA.Text = "";
+        }
+        else if (checkCorrectAnswerOfLabel(labelC))
+        {
+            labelD.Text = "";
+            labelA.Text = "";
+        }
+        else
+        {
+            labelB.Text = "";
+            labelC.Text = "";
+        }
+    }
+}
+
+```
+
+##### askAuidiancePictureBox_Click()
+
+Кога коринискот ќе кликне на askAuidiancePictureBox тогаш тој ја избрал опцијата за да ја праша публиката, за таа цел:
+
+```cs
+private async void askAuidiancePictureBox_Click(object sender, EventArgs e)
+{
+    // Проверуваме дали прво била искористена оваа опција, доколку не била тогаш:
+    if (!level.askTheCrowd)
+    {
+        // Сменија сликата од default во askAuidiancePictureBox, со ова се индицира дека оваа опција е искористена
+        askAuidiancePictureBox.Image = imgHelp.asktheaudience_c;
+        // Смени ја вреднсота на askTheCrowd во true, за да не може да се искористи повторно
+        level.askTheCrowd = true;
+        // Прикажи го точниот одговор на егран со користење на crowdVotingLabel
+        crowdVotingLabel.Text = "Според публиката, точниот одоовор е: \n" + level.questions[level.currentLevel].correct_answer;
+        // Почекај 8 секунди
+        await Task.Delay(8000);
+        // избриши се што е во лабелата crowdVotingLabel
+        crowdVotingLabel.Text = "";
+    }
+}
+```
+
+##### switchQuestionPictureBox_Click()
+
+Се користи кога корисникот ќе кликне на switchQuestionPictureBox, со тоа корисникот ни кажува дека сака да го смени понуденото прашање.
+
+```cs
+private void switchQuestionPictureBox_Click(object sender, EventArgs e)
+{
+    // Провери дали оваа опција била искористена претходно
+    if (!level.changeQuestion)
+    {
+        // смени ја сликата на switchQuestionPictureBox за да се укаже дека била искористена оваа опција
+        switchQuestionPictureBox.Image = imgHelp.switcharoo_c;
+        // смени ја променливата changeQuestion од false во true, на овој начин корисникот нема да може повторно да ја искористи оваа опција.
+        level.changeQuestion = true;
+        // Генерирај нов број од 0 до 49 (или доколку сме ги смениле прашањата во DataInit може да е и поголем бројот)
+        Random random = new Random();
+        // Доколку моменталниот левел е помал од 8
+        if (level.currentLevel < 8)
+        {
+            // тогаш смени го момменталното прашање со некое полесно 
+            int randomNumber = random.Next(0, easyQuestions.Count());
+            // смени го прашањето во ново
+            level.questions[level.currentLevel] = easyQuestions[randomNumber];
+            // прикажи го новото прашање на керан.
+            displayLevel();
+        }
+        // Истото направи и за тешките прашања
+        else
+        {
+            int randomNumber = random.Next(0, hardQuestions.Count());
+            level.questions[level.currentLevel] = hardQuestions[randomNumber];
+            displayLevel();
+        }
+    }
+}
+```
+
+##### switchQuestionPictureBox_MouseHover, fiftyFiftyPictureBox_MouseHover, askAuidiancePictureBox_MouseHover
+
+Кога корисникот ќе го постави маусот над некој од овие PictureBox тогаш се активира овој евент, бидејќи стие три ја имаат истата логика, ќе ги објасаам тука.
+
+```cs
+private void askAuidiancePictureBox_MouseHover(object sender, EventArgs e)
+{
+    // дали била искористена оваа опција претохдно?
+    if (!level.askTheCrowd)
+    {
+        // доколку не била, тогаш прикажи ја сликата за hover
+        askAuidiancePictureBox.Image = imgHelp.asktheaudience_hover;
+    }
+}
+ ```
+
+##### switchQuestionPictureBox_MouseLeave, fiftyFiftyPictureBox_MouseLeave, askAuidiancePictureBox_MouseLeave
+
+Кога корисникот ќе го смести маусот над сликата, се повикува евентот MouseHover, но кога корисникот ќе го тргне маусот од сликата, тогаш веќе не сакаме таа слика да се прикаже (hover), па затоа сакаме да ја остраниме. Овој евент работи за сите три опции исто, па затоа ќе објасанм како работи само за еден од нив:
+
+```cs
+private void fiftyFiftyPictureBox_MouseLeave(object sender, EventArgs e)
+{
+    // провери дали оваа опција претходно била искористена, доколку да тогаш 
+    if (!level.fiftyFifty)
+    {
+        // тогаш, острани ја сликата од pictureBox
+        fiftyFiftyPictureBox.Image = null;
+    }
+}
+```
