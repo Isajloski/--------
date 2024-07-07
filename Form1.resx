@@ -124,9 +124,6 @@
   <data name="imageList1.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
-  <metadata name="labelQuestion.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelQuestion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -135,13 +132,13 @@
     <value>Calibri, 9.75pt</value>
   </data>
   <data name="labelQuestion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 377</value>
+    <value>200, 374</value>
   </data>
   <data name="labelQuestion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelQuestion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>908, 75</value>
+    <value>892, 78</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="labelQuestion.TabIndex" type="System.Int32, mscorlib">
@@ -163,7 +160,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelQuestion.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <metadata name="imageList2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>128, 17</value>
@@ -171,9 +168,6 @@
   <data name="imageList2.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
-  <metadata name="label4.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -193,11 +187,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
-  <metadata name="labelA.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -238,11 +229,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelA.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
-  <metadata name="labelB.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelB.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -283,11 +271,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelB.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
-  <metadata name="labelC.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelC.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -328,11 +313,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelC.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
-  <metadata name="labelD.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelD.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -346,7 +328,7 @@
     <value>NoControl</value>
   </data>
   <data name="labelD.Location" type="System.Drawing.Point, System.Drawing">
-    <value>660, 565</value>
+    <value>664, 565</value>
   </data>
   <data name="labelD.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
@@ -373,11 +355,8 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelD.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
-  <metadata name="labelLevel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="labelLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -388,13 +367,13 @@
     <value>NoControl</value>
   </data>
   <data name="labelLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>563, 116</value>
+    <value>540, 110</value>
   </data>
   <data name="labelLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 0, 2, 0</value>
   </data>
   <data name="labelLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>169, 141</value>
+    <value>217, 148</value>
   </data>
   <data name="labelLevel.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -415,16 +394,118 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelLevel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="fiftyFiftyPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 313</value>
+  </data>
+  <data name="fiftyFiftyPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 37</value>
+  </data>
+  <data name="fiftyFiftyPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;fiftyFiftyPictureBox.Name" xml:space="preserve">
+    <value>fiftyFiftyPictureBox</value>
+  </data>
+  <data name="&gt;&gt;fiftyFiftyPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fiftyFiftyPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;fiftyFiftyPictureBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="askAuidiancePictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="askAuidiancePictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 313</value>
+  </data>
+  <data name="askAuidiancePictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 37</value>
+  </data>
+  <data name="askAuidiancePictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;askAuidiancePictureBox.Name" xml:space="preserve">
+    <value>askAuidiancePictureBox</value>
+  </data>
+  <data name="&gt;&gt;askAuidiancePictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;askAuidiancePictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;askAuidiancePictureBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="switchQuestionPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="switchQuestionPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 313</value>
+  </data>
+  <data name="switchQuestionPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 37</value>
+  </data>
+  <data name="switchQuestionPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;switchQuestionPictureBox.Name" xml:space="preserve">
+    <value>switchQuestionPictureBox</value>
+  </data>
+  <data name="&gt;&gt;switchQuestionPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;switchQuestionPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;switchQuestionPictureBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="crowdVotingLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="crowdVotingLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Calibri, 15.75pt</value>
+  </data>
+  <data name="crowdVotingLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="crowdVotingLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>795, 110</value>
+  </data>
+  <data name="crowdVotingLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="crowdVotingLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>452, 170</value>
+  </data>
+  <data name="crowdVotingLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="crowdVotingLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;crowdVotingLabel.Name" xml:space="preserve">
+    <value>crowdVotingLabel</value>
+  </data>
+  <data name="&gt;&gt;crowdVotingLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crowdVotingLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;crowdVotingLabel.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

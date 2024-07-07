@@ -39,6 +39,13 @@
             this.labelC = new System.Windows.Forms.Label();
             this.labelD = new System.Windows.Forms.Label();
             this.labelLevel = new System.Windows.Forms.Label();
+            this.fiftyFiftyPictureBox = new System.Windows.Forms.PictureBox();
+            this.askAuidiancePictureBox = new System.Windows.Forms.PictureBox();
+            this.switchQuestionPictureBox = new System.Windows.Forms.PictureBox();
+            this.crowdVotingLabel = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.fiftyFiftyPictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.askAuidiancePictureBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switchQuestionPictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // imageList1
@@ -119,10 +126,54 @@
             this.labelLevel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.labelLevel.Name = "labelLevel";
             // 
+            // fiftyFiftyPictureBox
+            // 
+            this.fiftyFiftyPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.fiftyFiftyPictureBox.BackgroundImage = global::Милионер.imgHelp._50_50;
+            resources.ApplyResources(this.fiftyFiftyPictureBox, "fiftyFiftyPictureBox");
+            this.fiftyFiftyPictureBox.Name = "fiftyFiftyPictureBox";
+            this.fiftyFiftyPictureBox.TabStop = false;
+            this.fiftyFiftyPictureBox.Click += new System.EventHandler(this.fiftyFiftyPictureBox_Click);
+            this.fiftyFiftyPictureBox.MouseLeave += new System.EventHandler(this.fiftyFiftyPictureBox_MouseLeave);
+            this.fiftyFiftyPictureBox.MouseHover += new System.EventHandler(this.fiftyFiftyPictureBox_MouseHover);
+            // 
+            // askAuidiancePictureBox
+            // 
+            this.askAuidiancePictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.askAuidiancePictureBox.BackgroundImage = global::Милионер.imgHelp.asktheaudience;
+            resources.ApplyResources(this.askAuidiancePictureBox, "askAuidiancePictureBox");
+            this.askAuidiancePictureBox.Name = "askAuidiancePictureBox";
+            this.askAuidiancePictureBox.TabStop = false;
+            this.askAuidiancePictureBox.Click += new System.EventHandler(this.askAuidiancePictureBox_Click);
+            this.askAuidiancePictureBox.MouseLeave += new System.EventHandler(this.askAuidiancePictureBox_MouseLeave);
+            this.askAuidiancePictureBox.MouseHover += new System.EventHandler(this.askAuidiancePictureBox_MouseHover);
+            // 
+            // switchQuestionPictureBox
+            // 
+            this.switchQuestionPictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.switchQuestionPictureBox.BackgroundImage = global::Милионер.imgHelp.switcharoo;
+            resources.ApplyResources(this.switchQuestionPictureBox, "switchQuestionPictureBox");
+            this.switchQuestionPictureBox.Name = "switchQuestionPictureBox";
+            this.switchQuestionPictureBox.TabStop = false;
+            this.switchQuestionPictureBox.Click += new System.EventHandler(this.switchQuestionPictureBox_Click);
+            this.switchQuestionPictureBox.MouseLeave += new System.EventHandler(this.switchQuestionPictureBox_MouseLeave);
+            this.switchQuestionPictureBox.MouseHover += new System.EventHandler(this.switchQuestionPictureBox_MouseHover);
+            // 
+            // crowdVotingLabel
+            // 
+            resources.ApplyResources(this.crowdVotingLabel, "crowdVotingLabel");
+            this.crowdVotingLabel.BackColor = System.Drawing.Color.Transparent;
+            this.crowdVotingLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.crowdVotingLabel.Name = "crowdVotingLabel";
+            // 
             // Милионер
             // 
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.Controls.Add(this.crowdVotingLabel);
+            this.Controls.Add(this.switchQuestionPictureBox);
+            this.Controls.Add(this.askAuidiancePictureBox);
+            this.Controls.Add(this.fiftyFiftyPictureBox);
             this.Controls.Add(this.labelLevel);
             this.Controls.Add(this.labelD);
             this.Controls.Add(this.labelC);
@@ -132,6 +183,9 @@
             this.Controls.Add(this.labelQuestion);
             this.Name = "Милионер";
             this.Load += new System.EventHandler(this.Милионер_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.fiftyFiftyPictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.askAuidiancePictureBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.switchQuestionPictureBox)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -146,6 +200,10 @@
         private System.Windows.Forms.Label labelC;
         private System.Windows.Forms.Label labelD;
         private System.Windows.Forms.Label labelLevel;
+        private System.Windows.Forms.PictureBox fiftyFiftyPictureBox;
+        private System.Windows.Forms.PictureBox askAuidiancePictureBox;
+        private System.Windows.Forms.PictureBox switchQuestionPictureBox;
+        private System.Windows.Forms.Label crowdVotingLabel;
     }
 }
 

@@ -10,8 +10,6 @@ namespace Милионер
     {
         public String question { get; set; }
         public List <String> answers { get; set; }
-
         public String correct_answer {  get; set; } 
-
     }
 }

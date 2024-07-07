@@ -14,8 +14,8 @@ namespace Милионер
         // Моменталниот левел започнува од 0 и крајниот е 14. 
         public int currentLevel { get; set; } = 0;
 
-        // Повикај пријател
-        public bool callAFriend { get; set; } = false;
+        // Смени го прашањето
+        public bool changeQuestion { get; set; } = false;
 
         // Прашај ја публиката
         public bool askTheCrowd { get; set; } = false;

@@ -11,7 +11,6 @@ C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Мил�
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\mk\Милионер.resources.dll
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.exe
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.pdb
-C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgLevel.resources
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgAnswer.resources
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\obj\Debug\Милионер.imgHelp.resources
 C:\Users\Luka\Documents\University\Programing\Virtuelno\Милионер\Милионер\bin\Debug\Newtonsoft.Json.dll

@@ -56,11 +56,6 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="imgLevel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>imgLevel.resx</DependentUpon>
-    </Compile>
     <Compile Include="Level.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -80,10 +75,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="imgLevel.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>imgLevel.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -133,21 +124,6 @@
     <Content Include="img\help\switcharoo.png" />
     <Content Include="img\help\switcharoo_c.png" />
     <Content Include="img\help\switcharoo_hover.png" />
-    <Content Include="img\levels\currentq_1.png" />
-    <Content Include="img\levels\currentq_10.png" />
-    <Content Include="img\levels\currentq_11.png" />
-    <Content Include="img\levels\currentq_12.png" />
-    <Content Include="img\levels\currentq_13.png" />
-    <Content Include="img\levels\currentq_14.png" />
-    <Content Include="img\levels\currentq_15.png" />
-    <Content Include="img\levels\currentq_2.png" />
-    <Content Include="img\levels\currentq_3.png" />
-    <Content Include="img\levels\currentq_4.png" />
-    <Content Include="img\levels\currentq_5.png" />
-    <Content Include="img\levels\currentq_6.png" />
-    <Content Include="img\levels\currentq_7.png" />
-    <Content Include="img\levels\currentq_8.png" />
-    <Content Include="img\levels\currentq_9.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

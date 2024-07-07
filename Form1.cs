@@ -119,16 +119,20 @@ namespace Милионер
             
             for (int i = 0; i < 7; i++)
             {
-                int randomNumber = random.Next(0, 50); // Generates random number between 0 and 49
-
+                int randomNumber = random.Next(0, easyQuestions.Count());
+                Console.WriteLine(randomNumber);
                 level.questions.Add(easyQuestions[randomNumber]);
 
             }
             for (int i = 7; i < 15; i++)
             {
-                int randomNumber = random.Next(0, 50); 
+                int randomNumber = random.Next(0, hardQuestions.Count());
+                Console.WriteLine(randomNumber);
                 level.questions.Add(hardQuestions[randomNumber]);
             }
+            fiftyFiftyPictureBox.Image = null;
+            askAuidiancePictureBox.Image = null;
+            switchQuestionPictureBox.Image = null;
         }
 
         private void NextLevel()
@@ -218,6 +222,121 @@ namespace Милионер
         private void labelD_Click(object sender, EventArgs e)
         {
             displayAnswer(labelD);
+        }
+
+        private bool checkCorrectAnswerOfLabel(System.Windows.Forms.Label label)
+        {
+            if (label.Text.Equals(level.questions[level.currentLevel].correct_answer))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private void fiftyFiftyPictureBox_Click(object sender, EventArgs e)
+        {
+            if (!level.fiftyFifty)
+            {
+                fiftyFiftyPictureBox.Image = imgHelp._50_50_c;
+                level.fiftyFifty = true;
+                if (checkCorrectAnswerOfLabel(labelA))
+                {
+                    labelC.Text = "";
+                    labelD.Text = "";
+                }
+                else if (checkCorrectAnswerOfLabel(labelB))
+                {
+                    labelC.Text = "";
+                    labelA.Text = "";
+                }
+                else if (checkCorrectAnswerOfLabel(labelC))
+                {
+                    labelD.Text = "";
+                    labelA.Text = "";
+                }
+                else
+                {
+                    labelB.Text = "";
+                    labelC.Text = "";
+                }
+            }
+        }
+
+
+        private void fiftyFiftyPictureBox_MouseHover(object sender, EventArgs e)
+        {
+            if (!level.fiftyFifty)
+            {
+                fiftyFiftyPictureBox.Image = imgHelp._50_50_hover;
+            }
+        }
+
+        private void fiftyFiftyPictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (!level.fiftyFifty)
+            {
+                fiftyFiftyPictureBox.Image = imgHelp._50_50;
+            }
+        }
+
+        private async void askAuidiancePictureBox_Click(object sender, EventArgs e)
+        {
+            if (!level.askTheCrowd)
+            {
+                askAuidiancePictureBox.Image = imgHelp.asktheaudience_c;
+                level.askTheCrowd = true;
+                crowdVotingLabel.Text = "Според публиката, точниот одоовор е: \n" + level.questions[level.currentLevel].correct_answer;
+                await Task.Delay(8000);
+                crowdVotingLabel.Text = "";
+            }
+        }
+
+        private void askAuidiancePictureBox_MouseHover(object sender, EventArgs e)
+        {
+            if (!level.askTheCrowd)
+            {
+                askAuidiancePictureBox.Image = imgHelp.asktheaudience_hover;
+            }
+        }
+
+        private void askAuidiancePictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (!level.askTheCrowd)
+            {
+                askAuidiancePictureBox.Image = null;
+            }
+        }
+
+        private void switchQuestionPictureBox_Click(object sender, EventArgs e)
+        {
+            if (!level.changeQuestion)
+            {
+                switchQuestionPictureBox.Image = imgHelp.switcharoo_c;
+                level.changeQuestion = true;
+                Random random = new Random();
+                if (level.currentLevel < 8)
+                {
+                    int randomNumber = random.Next(0, easyQuestions.Count());
+                    level.questions[level.currentLevel] = easyQuestions[randomNumber];
+                    displayLevel();
+                }
+            }
+        }
+
+        private void switchQuestionPictureBox_MouseHover(object sender, EventArgs e)
+        {
+            if (!level.changeQuestion)
+            {
+                switchQuestionPictureBox.Image = imgHelp.switcharoo_hover;
+            }
+        }
+
+        private void switchQuestionPictureBox_MouseLeave(object sender, EventArgs e)
+        {
+            if (!level.changeQuestion)
+            {
+                switchQuestionPictureBox.Image = null;
+            }
         }
     }
 }
